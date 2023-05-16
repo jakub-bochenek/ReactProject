@@ -1,0 +1,29 @@
+/* Bucket.css */
+
+.bucket-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.bucket-table th,
+.bucket-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.bucket-table th {
+    background-color: #f2f2f2;
+}
+
+.bucket-table td {
+    text-align: left;
+}
+
+.bucket-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.bucket-table tr:hover {
+    background-color: #e6e6e6;
+}
